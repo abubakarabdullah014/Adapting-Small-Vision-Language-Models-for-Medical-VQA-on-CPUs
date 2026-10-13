@@ -1,0 +1,42 @@
+[
+  {
+    "model": "smolvlm_256m",
+    "status": "ok",
+    "hf_id": "HuggingFaceTB/SmolVLM-256M-Instruct",
+    "approx_params_b": 0.256,
+    "load_s": 5.711493200000405,
+    "rss_after_load_gb": 1.4274520874023438,
+    "rss_after_lora_gb": 1.4432296752929688,
+    "step_times_s": [
+      4.417075199999999,
+      5.683444000000236
+    ],
+    "mean_step_s": 5.050259600000118,
+    "est_200_steps_h": 0.2805699777777843,
+    "infer_s": 2.0280345000001034,
+    "infer_tokens": 3,
+    "infer_preview": "No.",
+    "peak_rss_gb": 1.7559738159179688,
+    "train_feasible": true
+  },
+  {
+    "model": "smolvlm_500m",
+    "status": "ok",
+    "hf_id": "HuggingFaceTB/SmolVLM-500M-Instruct",
+    "approx_params_b": 0.5,
+    "load_s": 4.868844699999499,
+    "rss_after_load_gb": 2.6315231323242188,
+    "rss_after_lora_gb": 2.5770721435546875,
+    "step_times_s": [
+      6.25633949999974,
+      8.060917199999494
+    ],
+    "mean_step_s": 7.158628349999617,
+    "est_200_steps_h": 0.3977015749999787,
+    "infer_s": 4.211735500000032,
+    "infer_tokens": 3,
+    "infer_preview": "Yes.",
+    "peak_rss_gb": 2.812763214111328,
+    "train_feasible": true
+  }
+]

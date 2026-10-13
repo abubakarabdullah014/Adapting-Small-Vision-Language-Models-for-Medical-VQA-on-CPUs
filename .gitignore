@@ -1,0 +1,77 @@
+# Python / env
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large local artifacts (do not push)
+checkpoints/
+data_cache/
+*.pt
+*.bin
+*.safetensors
+*.onnx
+*.gguf
+
+# Hugging Face / local caches
+.cache/
+**/huggingface/
+**/transformers/
+
+# Energy / codecarbon noisy dumps (keep JSONL summaries only if needed)
+**/emissions.csv
+
+# Per-run experiment folders (predictions, energy dumps); keep aggregate JSONL/CSV only
+results/*/
+results/**/predictions.jsonl
+results/**/energy/
+
+# LaTeX / paper manuscript (author will convert & publish separately)
+paper/
+*.tex
+*.bib
+*.cls
+*.sty
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+
+# Proof / authoring notes tied to LaTeX
+**/proofread_report.txt
+**/AUTHORING.md
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials.json
+HF_TOKEN
+**/token
+
+# Misc
+*.tmp
+*.bak
+~$*
