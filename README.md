@@ -1,0 +1,1 @@
+# Adapting-Small-Vision-Language-Models-for-Medical-VQA-on-CPUs
